@@ -1,0 +1,28 @@
+- Import parquet data files into Dask DataFrames
+
+- Configure Docker to facilitate moving job to AWS / laptop / home workstation interchangeably
+
+- Collect, then converge on, then read / analyze a body of journal articles
+
+
+
+-Analysis to consider
+
+	FFT analysis, all subsequent anlaysis will be predicated on decomposing time-varying signals as 
+	frequency and phase.
+
+	Anomaly detection
+		/github/rob-med --> awesone-TS-anomaly-detection
+		NASA package
+		Numenta package
+
+
+	Neural Networks
+		Coherent NN
+		Complex NN (not useful?)
+		TensorFlow
+
+- Visualizations
+
+- Kaggle Submission
+ 
