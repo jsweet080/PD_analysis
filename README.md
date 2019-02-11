@@ -12,17 +12,26 @@ Can the analysis of 3 phase (3-wire) time-varying electrical signals from transm
 
 This project is composed of the following notebooks:
 
-01_Data_Manipulation      : Introduction to the dataset and storage formats. The data is manipulated to create a   
-                            balanced class from the unbalanced anomaly type dataset. Time series visulaizations.
+01_Data_Manip             : Introduction to the dataset and storage formats. The data is manipulated to create a   
+                            balanced class from the unbalanced anomaly type dataset. Time series visualizations.
 
-02_Fourier_convert        : The manipulated dataset is converted to frequency-space data with FFT and STFT visualizations.
+02_Time_Visuals           : The time domain data is visualized and discussed.
 
-03_Decision_Tree          : Both balanced and unbalanced classes data is modelled using decision trees.
+03_Fourier_visuals        : The manipulated dataset is converted to frequency-space data with FFT and STFT visualizations.
 
-04_Neural                 : Both class types are modelled using a neural networks.
+04_Log_Reg_Bal            : The Balanced class data is modelled using Logistic Regression.
 
-05_Analysis_and_Future    : Accuracy and other metrics are discussed with respect preceding models. What work should continue,           
-                            how the project should scale.
+05_Log_Reg_UnBal          : The unalanced class data is modelled using Logistic Regression.
+
+06_Dec_Tree_Bal           : The unbalanced class data is modelled using decision trees.
+
+07_Dec_Tree_Unbal         : The balanced class data is modelled using decision trees.
+
+08_Neural_Bal             : The unbalanced class type is modelled using a neural network.
+
+09_Neural_Unbal           : The balanced class type is modelled using a neural network.
+
+10_Conclusion             : Production model suggested. What work should continue, how the project should scale. 
  
 
 
